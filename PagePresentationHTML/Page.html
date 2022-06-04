@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<meta charset="utf-8">
+<title> Jeu du rammy </title>
+<link href="Style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+<body>
+<a id="début">
+<a id="rami">Rami</a>
+<a id="mainadverse">Main adverse</a>
+<a id="infos">Informations diverses</a>
+</a>
+
+<a id="interieur">
+<a id="plateau">
+<p>Drag the image back and forth between the two div elements.
+</p>
+<div id="hello"></div>
+
+</a>
+
+<a id="modification">
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="carte/back.png" draggable="true" ondragstart="drag(event)" id="main1" width="100" height="130">
+</div>
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+</a>
+</a>
+
+<a id="fin">
+<a id="pioche">Pioche</a>
+<a id="maindujoueur">Main du joueur</a>
+<a id="defausse">Defausse</a>
+</a>
+
+
+<script src="java.js"></script>
+
+</body>
+
+</html>

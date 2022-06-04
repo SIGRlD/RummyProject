@@ -1,0 +1,133 @@
+body{
+	margin: 0px;
+	background-color: pink;
+}
+
+#début{
+	position: absolute;
+	top: 0px; left: 0px;
+	margin: 0px;
+}
+
+#rami{
+	position: absolute;
+	top: 0px; left: 0px;
+	height: 18vh; 
+	width: 25vw;
+	text-align: center;
+	line-height : 17vh;
+	font-size: 30px;
+	background-color: white;
+    color: green;
+	border-bottom: 2vh solid black;
+}
+
+#mainadverse{
+	position: absolute;
+	top: 0px; left: 25vw;
+	height: 18vh; 
+	width: 39vw;
+	text-align: center;
+	line-height : 17vh;
+	font-size: 30px;
+	background-color: white;
+    color: green;
+	border-bottom: 2vh solid black;
+	border-left: 1vw solid black;
+}
+
+#infos{
+	position: absolute;
+	top: 0px; left: 65vw;
+	height: 18vh; 
+	width: 34vw;
+	text-align: center;
+	line-height : 17vh;
+	font-size: 30px;
+	background-color: white;
+    color: green;
+	border-bottom: 2vh solid black;
+	border-left: 1vw solid black;
+}
+
+#interieur{
+	position: absolute;
+	top: 20vh; left: 0px;
+	background-color: purple;
+}
+
+#plateau{
+	position: absolute;
+	top: 20vh; left: 0px;
+	height: 58vh;
+	width: 70vw;
+	margin: 0px;
+	background-color: purple;
+}
+
+#modification{
+	position: absolute;
+	top: 20vh; left: 70vw;
+	height: 58vh;
+	width: 29vw;
+	margin: 0px;
+	border-left: 1vw solid black;
+	background-color: purple;
+}
+
+#div1, #div2, #div3{
+  float: left;
+  width: 100px;
+  height: 130px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: pink;
+}
+
+#fin{
+	position: absolute;
+	top: 0px; left: 0px;
+	margin: 0px;
+}
+
+#pioche{
+	position: absolute;
+	top: 78vh; left: 0px;
+	height: 20vh;
+	width: 15vw;
+	text-align: center;
+	line-height : 17vh;
+	font-size: 30px;
+	background-color: white;
+    color: green;
+	border-top: 2vh solid black;
+}
+
+#maindujoueur{
+	position: absolute;
+	top: 78vh; left: 15vw;
+	height: 20vh; 
+	width: 68vw;
+	text-align: center;
+	line-height : 17vh;
+	font-size: 30px;
+	background-color: white;
+    color: green;
+	border-top: 2vh solid black;
+	border-left: 1vw solid black;
+}
+
+#defausse{
+	position: absolute;
+	top: 78vh; left: 84vw;
+	height: 20vh; 
+	width: 15vw;
+	text-align: center;
+	line-height : 17vh;
+	font-size: 30px;
+	background-color: white;
+    color: green;
+	border-top: 2vh solid black;
+	border-left: 1vw solid black;
+}
