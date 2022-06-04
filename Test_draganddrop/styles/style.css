@@ -1,0 +1,18 @@
+p {
+  color: purple;
+}
+h1 {
+	color: pink;
+}
+#div1, #div2,#div3, #div4 {
+  float: left;
+  width: 100px;
+  height: 130px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid purple;
+  background: pink;
+}
+body {
+	background-color: #fde8fd;
+}
