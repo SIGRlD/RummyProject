@@ -1,0 +1,41 @@
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <title> Jeu du rammy </title>
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<h1>
+</h1>
+
+<h3>
+</h3>
+
+<p>
+You can drop cards only in cases with no cards in it. 
+</p>
+
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img id="main1">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+<img id="main2">
+</div>
+
+<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+<div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)">
+</div>
+
+<div class="deck"></class>
+<div class="plateau"></class>
+<div class="coup"></class>
+<div class="pioche"></class>
+<script src="scripts/main.js"></script>
+</body>
+</html>
